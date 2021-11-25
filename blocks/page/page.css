@@ -1,3 +1,10 @@
 .page {
-  min-width: 1280px;
+  display: flex;
+  flex-direction: column;
+  font-family: "Inter";
+  font-style: normal;
+  color: white;
+  max-width: 1280px;
+  background-color: #2a2c2f;
+  margin: 0 auto;
 }
