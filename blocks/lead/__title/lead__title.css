@@ -1,6 +1,7 @@
 .lead__title {
   font-weight: 900;
-  line-height: 1;
+  line-height: 1.04;
   text-align: center;
   font-size: 96px;
+  margin: 91px auto 32px;
 }

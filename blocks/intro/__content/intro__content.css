@@ -1,0 +1,5 @@
+.intro__content {
+  max-width: 720px;
+  display: flex;
+  flex-direction: column;
+}
