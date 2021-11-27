@@ -1,0 +1,10 @@
+.places__place {
+  display: grid;
+  gap: 48px 40px;
+  max-width: 984px;
+  grid-template-areas:
+    "title artist"
+    "image text"
+    "botton .";
+  margin: 80px 0 0;
+}

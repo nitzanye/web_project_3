@@ -1,8 +1,9 @@
-.place__url-heading {
+.places__roll {
   font-weight: normal;
-  line-height: 1.5;
+  line-height: 15px;
   font-size: 12px;
   letter-spacing: 0.12em;
   text-transform: uppercase;
   color: #aaaaaa;
+  margin: 0 0 8px;
 }

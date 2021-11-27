@@ -1,0 +1,8 @@
+.buy-botton {
+  text-decoration: none;
+  color: white;
+  background-color: #0278fe;
+  border-radius: 4px;
+  width: fit-content;
+  padding: 13px 20px;
+}

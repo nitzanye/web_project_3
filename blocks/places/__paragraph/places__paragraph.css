@@ -1,0 +1,10 @@
+.places__paragraph {
+  font-weight: normal;
+  line-height: 1.63;
+  font-size: 18px;
+  margin: 25px 0;
+}
+
+.places__paragraph:first-child {
+  margin-top: 0;
+}
