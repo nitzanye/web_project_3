@@ -2,9 +2,14 @@
   background-image: url(../../images/__background.png);
   background-repeat: no-repeat;
   min-height: 740px;
-  margin: 0 48px;
+  margin: 0 auto;
   display: flex;
-  flex-direction: column;
   justify-content: center;
-  align-items: center;
+  background-size: cover;
+  position: relative;
+  max-width: 1184px;
+}
+
+.cover:hover .cover__overlay {
+  opacity: 0.8;
 }
