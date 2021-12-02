@@ -5,3 +5,15 @@
   background-color: black;
   mix-blend-mode: luminosity;
 }
+
+@media screen and (max-width: 768px) {
+  .lead__image {
+    margin-top: 36px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .lead__image {
+    margin-top: 40px;
+  }
+}

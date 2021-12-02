@@ -2,7 +2,6 @@
 @import url(../fonts/fonts.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/header/header.css);
-@import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/logo/logo.css);
 @import url(../blocks/logo/__image/logo__image.css);
 @import url(../blocks/lead/lead.css);
@@ -33,6 +32,6 @@
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
-@import url(../blocks/buy-botton/buy-botton.css);
-@import url(../blocks/buy-botton/_place/buy-botton_place_places.css);
-@import url(../blocks/buy-botton/_place/buy-botton_place_cover.css);
+@import url(../blocks/buy-button/buy-button.css);
+@import url(../blocks/buy-button/_place/buy-button_place_places.css);
+@import url(../blocks/buy-button/_place/buy-button_place_cover.css);

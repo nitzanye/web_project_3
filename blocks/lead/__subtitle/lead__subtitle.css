@@ -3,5 +3,19 @@
   font-size: 30px;
   text-align: center;
   font-weight: normal;
-  margin: 0 auto;
+  margin-top: 32px;
+}
+
+@media screen and (max-width: 768px) {
+  .lead__subtitle {
+    margin: 32px 24px 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .lead__subtitle {
+    font-size: 16px;
+    line-height: 1.25;
+    margin: 16px 16px 0;
+  }
 }

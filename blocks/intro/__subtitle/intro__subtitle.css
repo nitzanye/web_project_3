@@ -2,5 +2,11 @@
   font-weight: normal;
   line-height: 1.42;
   font-size: 24px;
-  margin: 40px 0 10px;
+  margin: 40px 0 0;
+}
+
+@media screen and (max-width: 320px) {
+  .intro__subtitle {
+    line-height: 1.25;
+  }
 }

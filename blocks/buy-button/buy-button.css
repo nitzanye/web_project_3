@@ -1,4 +1,4 @@
-.buy-botton {
+.buy-button {
   text-decoration: none;
   color: white;
   background-color: #0278fe;
@@ -7,8 +7,9 @@
   height: fit-content;
   padding: 13px 20px;
   transition: background-color 0.4s;
+  margin: 0;
 }
 
-.buy-botton:hover {
+.buy-button:hover {
   background-color: #0063d2;
 }

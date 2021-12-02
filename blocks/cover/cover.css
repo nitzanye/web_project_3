@@ -2,7 +2,7 @@
   background-image: url(../../images/__background.png);
   background-repeat: no-repeat;
   min-height: 740px;
-  margin: 0 auto;
+  margin: 92px auto 0;
   display: flex;
   justify-content: center;
   background-size: cover;
@@ -12,4 +12,17 @@
 
 .cover:hover .cover__overlay {
   opacity: 0.8;
+}
+
+@media screen and (max-width: 768px) {
+  .cover {
+    min-height: 746px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover {
+    min-height: 254px;
+    margin: 64px auto 0;
+  }
 }
