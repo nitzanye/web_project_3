@@ -3,13 +3,20 @@
   color: white;
   background-color: #0278fe;
   border-radius: 4px;
-  width: fit-content;
-  height: fit-content;
+  max-width: 248px;
+  max-height: 48px;
   padding: 13px 20px;
   transition: background-color 0.4s;
   margin: 0;
+  align-self: center;
 }
 
 .buy-button:hover {
   background-color: #0063d2;
+}
+
+@media screen and (max-width: 320px) {
+  .buy-button {
+    max-width: 288px;
+  }
 }

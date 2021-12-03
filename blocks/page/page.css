@@ -3,8 +3,13 @@
   font-style: normal;
   color: white;
   max-width: 1280px;
+  min-width: 320px;
+  width: 100%;
+  min-height: 100vh;
   background-color: #2a2c2f;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
 }

@@ -5,7 +5,7 @@
   grid-template-areas:
     "title artist"
     "image text"
-    "botton text";
+    "button text";
   margin-bottom: 80px;
 }
 
@@ -17,10 +17,12 @@
   .places__place {
     gap: 46px 28px;
     grid-template-columns: 340px 1fr;
+    grid-template-rows: 1fr 340px;
+    margin-bottom: 72px;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 660px) {
   .places__place {
     gap: 30px;
     grid-template-columns: 1fr;
@@ -31,5 +33,6 @@
       "image"
       "text"
       "button";
+    margin-bottom: 50px;
   }
 }

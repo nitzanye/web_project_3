@@ -1,7 +1,7 @@
 .lead__image {
   max-width: 100%;
   display: block;
-  margin: 64px auto;
+  margin: 64px auto 0;
   background-color: black;
   mix-blend-mode: luminosity;
 }

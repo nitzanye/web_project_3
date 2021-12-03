@@ -5,7 +5,7 @@
   gap: 16px;
   max-width: 1184px;
   align-self: center;
-  margin: 118px auto 92px;
+  margin: 118px auto 0;
 }
 
 @media screen and (max-width: 768px) {
