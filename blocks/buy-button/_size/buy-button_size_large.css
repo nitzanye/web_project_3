@@ -1,0 +1,14 @@
+.buy-button_size_large {
+  grid-area: button;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.21;
+  text-align: center;
+}
+
+@media screen and (max-width: 320px) {
+  .buy-button_size_large {
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+}

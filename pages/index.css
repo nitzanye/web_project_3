@@ -33,5 +33,5 @@
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 @import url(../blocks/buy-button/buy-button.css);
-@import url(../blocks/buy-button/_place/buy-button_place_places.css);
-@import url(../blocks/buy-button/_place/buy-button_place_cover.css);
+@import url(../blocks/buy-button/_size/buy-button_size_large.css);
+@import url(../blocks/buy-button/_size/buy-button_size_small.css);

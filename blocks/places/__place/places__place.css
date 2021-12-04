@@ -2,6 +2,7 @@
   display: grid;
   gap: 48px 40px;
   grid-template-columns: 1fr 1fr;
+  grid-template-rows: min-content min-content 1fr;
   grid-template-areas:
     "title artist"
     "image text"
@@ -16,8 +17,6 @@
 @media screen and (max-width: 768px) {
   .places__place {
     gap: 46px 28px;
-    grid-template-columns: 340px 1fr;
-    grid-template-rows: 1fr 340px;
     margin-bottom: 72px;
   }
 }
@@ -34,5 +33,6 @@
       "text"
       "button";
     margin-bottom: 50px;
+    max-width: 100%;
   }
 }
