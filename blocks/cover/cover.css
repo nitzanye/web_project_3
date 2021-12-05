@@ -11,6 +11,10 @@
   max-width: 1184px;
 }
 
+.cover:hover .cover__overlay {
+  opacity: 0.8;
+}
+
 @media screen and (max-width: 768px) {
   .cover {
     min-height: 746px;
