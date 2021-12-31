@@ -16,4 +16,4 @@ A responsive web design that built using Grid Layout, ensuring that this site lo
 - Working with Figma
 - Flexbox
 
-(https://nitzanye.github.io/web_project_3/ "To The Project")
+[Check it out](https://nitzanye.github.io/web_project_3/)
